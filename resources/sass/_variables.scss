@@ -1,0 +1,32 @@
+// Body
+$body-bg: #f8fafc;
+$body-font-color: #5d5d5d;
+
+// Typography
+$font-family-sans-serif: 'Verdana', 'Nunito', sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 1.4;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+// $orange: #f6993f;
+$orange: #ff7400;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$warning: $orange;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
