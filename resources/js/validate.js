@@ -34,12 +34,13 @@ const subcategorySchema = yup.object().shape({
 
 const categorySchema = yup.object().shape({
   title: yup.string().required(),
-  description: yup.string().required()
+  description: yup.string().required(),
 });
 
 const productSchema = yup.object().shape({
   title: yup.string().required(),
   description: yup.string().required(),
+  pdf_link: yup.string().nullable(true),
   price: yup
     .number()
     .typeError(i18n.t('error.positive'))

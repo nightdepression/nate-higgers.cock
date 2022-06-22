@@ -24,6 +24,7 @@ class Product extends Model
         'picture',
         'pictures',
         'description',
+        'pdf_link',
         'price',
         'pages',
         'year',

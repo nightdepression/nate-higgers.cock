@@ -18,6 +18,7 @@ class CreateProductsTable extends Migration
             $table->string('title');
             $table->double('price', 8, 2);
             $table->text('description');
+            $table->text('pdf_link');
             $table->string('subcategory_slug');
             $table->string('picture');
             $table->smallInteger('year')->unsigned();

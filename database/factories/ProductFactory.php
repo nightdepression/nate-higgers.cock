@@ -42,6 +42,7 @@ class ProductFactory extends Factory
             'picture' => '',
             'pictures' => json_encode([]),
             'description' => $this->faker->text(600),
+            'pdf_link' => '',
             'price' => $this->faker->numberBetween(500, 2000),
             'pages' => $this->faker->numberBetween(150, 550),
             'year' => $this->faker->numberBetween(1990, 2020),
