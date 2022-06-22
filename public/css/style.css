@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400&subset=latin,latin-ext);
-
 @font-face {
   font-family: 'Roboto Condensed', sans-serif;
   font-style: normal;
@@ -115,4 +114,5 @@
 .base-description {
   white-space: pre-wrap;
 }
+
 

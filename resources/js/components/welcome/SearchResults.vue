@@ -86,7 +86,7 @@ export default {
 
     picturePath(picture) {
       if (picture) {
-        return "/storage/img/" + picture;
+        return "/img/" + picture;
       }
 
       if (this.searchType == "author") {

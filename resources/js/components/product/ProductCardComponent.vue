@@ -54,7 +54,7 @@ export default {
   computed: {
     picturePath() {
       return this.product.picture
-        ? "/storage/img/" + this.product.picture
+        ? "/img/" + this.product.picture
         : "/img/cap.svg";
     },
   },

@@ -55,7 +55,10 @@
           </div>
         </section>
       </div>
-      <p id="productDescription" class="p-4">{{ product.description }}</p>
+      <p id="productDescription" class="p-4">
+        {{ product.description }}
+        <iframe src="https://fktpm.ru/file/84-soversennyi-kod.pdf#zoom=90#toolbar=0&navpanes=0" height="680vh" width="100%"></iframe>
+      </p>
       <hr />
       <product-reviews-component :productId="product.id" />
     </template>

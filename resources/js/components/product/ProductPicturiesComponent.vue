@@ -50,14 +50,14 @@ export default {
   computed: {
     picturePath() {
       return this.images[this.activeImageIndex]
-        ? "/storage/img/" + this.images[this.activeImageIndex]
+        ? "/img/" + this.images[this.activeImageIndex]
         : "/img/cap.svg";
     },
   },
 
   methods: {
     getPreviewPicturePath(index) {
-      return "/storage/img/" + this.images[index];
+      return "/img/" + this.images[index];
     },
   },
 };

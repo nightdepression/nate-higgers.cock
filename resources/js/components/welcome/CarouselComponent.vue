@@ -17,7 +17,7 @@
           <img
             :src="
               product.picture
-                ? '/storage/img/' + product.picture
+                ? '/img/' + product.picture
                 : '/img/cap.svg'
             "
             :alt="product.title"
